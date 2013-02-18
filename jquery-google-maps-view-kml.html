@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Mapviewer</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta http-equiv="content-language" content="en" />
+
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+
+        <div id="canvas_holder">
+            <div id="map_canvas"></div>
+        </div>
+
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=drawing"></script>
+        <script type="text/javascript" src="js/jquery-1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/json2.js"></script>
+                <script type="text/javascript" src="ui/jquery.ui.map.js"></script>
+        <script type="text/javascript" src="ui/jquery.ui.map.services.js"></script>
+        <script type="text/javascript" src="ui/jquery.ui.map.extensions.js"></script>
+        
+        <script type="text/javascript">
+			(function($) {
+				$.Constants = {
+					ICONS_SRC_FOLDER : "icons/",
+					NEW_MARKER_DEFAULT_ICON : "pin-export.png",
+				}
+
+				$('#map_canvas').gmap({
+					'disableDefaultUI' : true,
+					'callback' : function(map) {
+						var georssLayer = new google.maps.KmlLayer('http://127.0.0.1:8020/googlemapeditor/NINDIA-2013.kml');
+						georssLayer.setMap(map);
+					}
+				});
+
+			})(jQuery);
+        </script>
+
+
+    </body>
+</html>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Mapeditor</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta http-equiv="content-language" content="en" />
+        <meta name="author" content="Johan S�ll Larsson" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <meta name="keywords" content="Google maps, jQuery, plugin, geo search" />
+        <meta name="description" content="An example with click and drag events, geo localization and geo search using jQuery and Google maps v3" />
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+        <meta name="DC.title" content="Example with click, drag events with geo search - Google maps jQuery plugin" />
+        <meta name="DC.subject" content="Google maps;jQuery;plugin;geo search" />
+        <meta name="DC.description" content="An example with click and drag events, geo localization and geo search using jQuery and Google maps v3" />
+        <meta name="DC.creator" content="Johan S�ll Larsson" />
+        <meta name="DC.language" content="en" />
+
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+        <link type="text/css" rel="stylesheet" href="css/colorpicker.css" />
+        <script type="text/javascript" src="js/modernizr-2.0.6/modernizr.min.js"></script>
+    </head>
+    <body>
+        <div data-bind="with:editingPoint, modal: editingPoint" class=" modal fade ">
+            <form data-bind="submit: $parent.savePoint">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">×</a>
+                    <h3> Editing point</h3>
+                </div>
+                <div class="modal-body">
+                    <label>Location: <span data-bind="text:location"></span></label>
+                    <img data-bind="attr: { 'src': $.Constants.ICONS_SRC_FOLDER+icon()}" />
+                    <input type="text" data-bind="value: $parent.findIconsValue, hasfocus:$parent.showIconSelector, valueUpdate: 'afterkeydown'" />
+                    <div class=" show" style="position:absolute;width:400px;" data-bind="visible: $parent.showIconSelector">
+                        <div class="arrow"></div>
+                        <div class="popover-inner" style="width:auto;"  data-bind="foreach: {data:$parent.findedIcons, as:'iconSrc'}">
+                            <a data-bind="click: function(data, event) { $parent.icon(iconSrc)}" > <img data-bind="attr: { 'src': $.Constants.ICONS_SRC_FOLDER+iconSrc}" /></a>
+                        </div>
+                    </div>
+                    <label>Name:</label>
+                    <input type="text" data-bind="value: name, valueUpdate: 'afterkeydown'" />
+                    <label>Description:</label>
+                    <textarea data-bind="if:desc, value: desc, valueUpdate: 'afterkeydown'" ></textarea>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" data-bind="click: $parent.removePoint">Delete</a>
+                    <a href="#" class="btn btn-primary" data-bind="click: $parent.savePoint">Close</a>
+                </div>
+            </form>
+        </div>
+        <div data-bind="with:editingPolyline, modal: editingPolyline" class=" modal fade ">
+            <form data-bind="submit: $parent.savePolyline">
+                <div class="modal-header">
+                    <a class="close" data-dismiss="modal">×</a>
+                    <h3> Editing line</h3>
+                </div>
+                <div class="modal-body">
+                    <label>Name:</label>
+                    <input type="text" data-bind="value: name, valueUpdate: 'afterkeydown'" />
+                    <label>Color</label>
+                    <div id="polylineColorPicker" class="input-append color" data-bind="attr: { 'data-color': 'hex('+color()+')'}" data-color-format="hex">
+                        <span class="add-on"><i data-bind="style: { backgroundColor: '#000000'}"></i></span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" data-bind="click: $parent.removePolyline">Delete</a>
+                    <a href="#" class="btn btn-primary" data-bind="click: $parent.savePolyline">Close</a>
+                </div>
+            </form>
+        </div>
+
+        <div id="canvas_holder">
+            <div id="map_canvas"></div>
+        </div>
+
+        <div id="items" class="content light shadow">
+            <h2>Punktid ja jooned (<span data-bind="text: points().length"></span>)</h2>
+
+            <ul data-bind="foreach: mapitems">
+                <li>
+                    <span data-bind="text: name,style: { color: color}"></span>
+                    <a href="#" data-bind="click: $parent.editMapitem">Edit point</a>
+                </li>
+            </ul>
+
+            <a href="#" class="btn btn-primary" data-bind="enable: isChanged,click: saveMap">Save map</a>
+        </div>
+
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=drawing"></script>
+        <script type="text/javascript" src="js/jquery-1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/json2.js"></script>
+        <script type="text/javascript">
+			(function($) {
+				$.Constants = {
+					ICONS_SRC_FOLDER : "icons/",
+					NEW_MARKER_DEFAULT_ICON : "pin-export.png",
+				}
+			})(jQuery);
+        </script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/bootstrap-modal.js"></script>
+        <script type="text/javascript" src="js/bootstrap-colorpicker.js"></script>
+        <script type="text/javascript" src="js/knockout-2.2.1.js"></script>
+        <script type="text/javascript" src="ui/jquery.ui.map.js"></script>
+        <script type="text/javascript" src="ui/jquery.ui.map.services.js"></script>
+        <script type="text/javascript" src="ui/jquery.ui.map.extensions.js"></script>
+        <script type="text/javascript" src="js/mapeditor.js"></script>
+
+    </body>
+</html>
+>

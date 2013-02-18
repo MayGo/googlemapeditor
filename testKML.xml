@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+	<Document>
+		<name>
+			KML doc
+		</name>
+		<description>
+			KML desc
+		</description>
+		<Style id='Point_0'>
+			<IconStyle>
+				<Icon>
+					<href>
+						http://maps.gstatic.com/mapfiles/ms2/micons/bus.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id='Point_1'>
+			<IconStyle>
+				<Icon>
+					<href>
+						file:///C:/GitHub/googlemapeditor/icons/pin-export.png
+					</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Placemark>
+			<name>
+				Start point
+			</name>
+			<description>
+				<![CDATA[<div dir='ltr'>Start point</div>]]>
+			</description>
+			<styleUrl>
+				#Point_0
+			</styleUrl>
+			<Point>
+				<coordinates>
+					1.834716796875,50.951506094481545,0.000000
+				</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>
+				End point
+			</name>
+			<description>
+				<![CDATA[<div dir='ltr'>End point</div>]]>
+			</description>
+			<styleUrl>
+				#Point_1
+			</styleUrl>
+			<Point>
+				<coordinates>
+					1.1865234375,51.084547222263666,0.000000
+				</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='Line_0'>
+			<LineStyle>
+				<color>
+					400066CC
+				</color>
+				<width>
+					3
+				</width>
+			</LineStyle>
+		</Style>
+		<Placemark>
+			<name>
+				Swim line
+			</name>
+			<description>
+				<![CDATA[<div dir='ltr'>Swim line</div>]]>
+			</description>
+			<styleUrl>
+				#Line_0
+			</styleUrl>
+			<LineString>
+				<tessellate>
+					1
+				</tessellate>
+				<coordinates>
+					1.1810302734375,51.09144802136697,0.000000
+					1.834716796875,50.95669666276118,0.000000
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

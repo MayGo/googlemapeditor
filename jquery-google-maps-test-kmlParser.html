@@ -21,53 +21,26 @@
         <script type="text/javascript" src="ui/jquery.ui.map.services.js"></script>
         <script type="text/javascript" src="ui/jquery.ui.map.extensions.js"></script>
         <script type="text/javascript" src="ui/jquery.ui.map.overlays.js"></script>
-        <script type="text/javascript" src="js/geoxml3.js"></script>
+        <script type="text/javascript" src="js/kmlParser.js"></script>
         <script type="text/javascript">
 			(function($) {
 				$.Constants = {
 					ICONS_SRC_FOLDER : "icons/",
 					NEW_MARKER_DEFAULT_ICON : "pin-export.png",
 				}
-
+                function onComplete(s){
+                    alert("s"+s)
+                }
 				$('#map_canvas').gmap({
 					'center' : new google.maps.LatLng(42.345573, -71.098326),
 					'callback' : function(map) {
 						//this.loadKML('dog_feed_1', 'http://api.flickr.com/services/feeds/geo/?g=322338@N20&lang=en-us&format=feed-georss');
 
-						 myParser = new geoXML3.parser({
-							afterParse : useTheData
-						});
-						//myParser.parse('my_geodata.kml');
-
-						function useTheData(doc) {
-							// Geodata handling goes here, using JSON properties of the doc object
-							for (var i = 0; i < doc[0].placemarks.length; i++) { 
-							    var p=doc[0].gpolygons[i];
-alert(p.toSource());return;
-							}
-						};
-
-						geoXML3.fetchXML = function(url, callback) {
-							$.get(url, function(data) {
-								callback(data);
-								//alert(data);
-							});
-						}
+						$(this).kmlParser({url:'NINDIA-2013.kml',onComplete:onComplete})
 						//$('#map_canvas').gmap('loadKML', 'http://api.flickr.com/services/feeds/geo/?g=322338@N20&lang=en-us&format=feed-georss');
 					}
 				});
-				function displayKML(kml) {
-					myParser.parse(kml);
-					//console.dir(doc.placemarks);
-					/* doc.groundoverlays  = [];
-					 doc.ggroundoverlays = [];
-					 doc.networkLinks    = [];
-					 doc.gpolygons       = [];
-					 doc.gpolylines    */
-				}
-
-				//displayKML('testKML.xml');
-				displayKML('NINDIA-2013.kml');
+			
 				
 			})(jQuery);
         </script>

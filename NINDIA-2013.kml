@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>NINDIA-2013</name>
+  <description><![CDATA[Jan 15th  - May 29th 2013
+
+This trip will take us through Central India and Nepal. It will be all new territory for us in India and of course, Nepal is too near to be ignored: we will spend 2 months there, return to the Everest region and explore the Makalu Massif, a first for us in Nepal. The dates are approximate and we have added links to videos, articles and sites. We hope you'll enjoy browsing through the map.
+---------------------------------------------------------------------------
+Ce voyage nous emmènera au travers de l'Inde centrale et du Népal: une partie du sub-continent que nous ne connaissons pas du tout. Bien sûr, le Népal était trop proche pour rester ignoré: nous y resterons un peu plus de 2 mois, pour revoir l'Everest et découvrir le massif du Makalu, une première pour nous. Les dates ne sont qu'approximatives et nous avons référencé quelques vidéos, articles, sites pour plus d'infos. Nous espérons que vous aimerez consulter notre carte]]></description>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblu-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style34">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblu-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style35">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblu-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblu-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style43">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblu-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style45">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblu-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style40">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblu-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style46">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblu-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style41">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblu-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style36">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/pink-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style42">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/purple.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rangerstation.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style49">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/ltblu-pushpin.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style44">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style48">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/red.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style47">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/plane.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style37">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>3</width>
+    </LineStyle>
+  </Style>
+  <Style id="style31">
+    <LineStyle>
+      <color>730000FF</color>
+      <width>3</width>
+    </LineStyle>
+  </Style>
+  <Style id="style50">
+    <LineStyle>
+      <color>99CC33CC</color>
+      <width>3</width>
+    </LineStyle>
+  </Style>
+  <Style id="style27">
+    <LineStyle>
+      <color>400066CC</color>
+      <width>3</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>BFCC33CC</color>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+  <Style id="style22">
+    <LineStyle>
+      <color>99993399</color>
+      <width>3</width>
+    </LineStyle>
+  </Style>
+  <Style id="style38">
+    <LineStyle>
+      <color>99993399</color>
+      <width>3</width>
+    </LineStyle>
+  </Style>
+  <Style id="style39">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bus.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/bus.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rail.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rail.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rail.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rail.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rail.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/rail.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>01 Nasik: 16-18 Jan</name>
+    <description><![CDATA[<div dir="ltr">Not quite prepared to face Mumbai at the start of our journey, we have decided to head directly from the airport to the holy city of Nasik. Nasik is one of the four cities in India hosting the <a href="http://trvl2.com/Nindia13/background/Kumbh_Mela" target="_blank">Kumbh Mela </a>and as such is full of temples, shrines and pilgrims. We will stay there for a few nights to get over jet lag and get re-accustomed to bustling India.<br><br>Nous n'avons pas envie d'affronter Mumbai dès le début et avons donc décidé de rallier la ville sainte de <a href="http://ganapati.free.fr/voyage/maharashtra/frnasik.html" target="_blank">Nasik </a>pour y passer notre première nuit, récupérer du Jet Lag et nous ré-accoutumer à l'Inde. Nasik est une des quatre villes indiennes accueillant le festival hindou de la <a href="http://fr.wikipedia.org/wiki/Kumbhamela" target="_blank">Kumbh Mela </a>et en tant que telle attire beaucoup de pélerins dans ses innombrables temples et sanctuaires.</div>]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>73.784180,19.983673,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>02 Aurangabad: 19-23 Jan</name>
+    <description><![CDATA[<div dir="ltr">Our first big stop, Aurangabad will serve us as a base to visit the caves of Ellora and Ajanta, two World Heritage Sites (see next markers). The city itself boasts several <a href="http://asi.nic.in/asi_monu_tktd_maha_bibika.asp" target="_blank">islamic monuments</a> and the Fort of <a href="http://asi.nic.in/asi_monu_tktd_maha_daulatbadfort.asp" target="_blank">Daulatabad </a>is only 13 km away. Plenty to see!<br><br>Notre première étape d'importance, la ville d'<a href="http://ganapati.free.fr/voyage/maharashtra/fraurangabad.html" target="_blank">Aurangabad </a>nous servira de base pour visiter les grottes d'Ajanta et d'Ellora, toutes deux inscrites au patrimoine mondial de l'humanité (voir les deux marqueurs suivants). La ville elle-même abrite de nombreux monuments islamiques et le fort de <a href="http://www.linternaute.com/voyage/inde/inde-du-sud/monument/fort-de-daulatabad/" target="_blank">Daulatabad </a>n'est qu'à 13 km. Pas de quoi s'ennuyer!<br></div>]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>75.333252,19.859728,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>02a Ellora</name>
+    <description><![CDATA[The Ellora Caves are on the World Heritage List. The <a href="http://whc.unesco.org/en/list/243" target="_blank">UNESCO </a>web site provides a good overview of the site: note the different tabs for a description, some photos (gallery) and videos.<br><br>Les Grottes d'Ellora sont inscrites au Patrimoine Mondial de l'Humanité. Le site de l'<a href="http://whc.unesco.org/fr/list/243/" target="_blank">UNESCO </a>donne un bon aperçu de ce site: notez les différents onglets description (en français), Galerie (pour les photos) et vidéo (en anglais) pour plus d'information.<br>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>75.168457,20.027548,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>02b Ajanta</name>
+    <description><![CDATA[The Ajanta Caves are on the World Heritage List. The <a href="http://whc.unesco.org/en/list/242" target="_blank">UNESCO </a>web site provides a good overview of the site: note the different tabs for a description, some photos (gallery) and videos.<br><br>Les Grottes d'Ajanta sont inscrites au Patrimoine Mondial de l'Humanité. Le site de l'<a href="http://whc.unesco.org/fr/list/242" target="_blank">UNESCO </a>donne un bon aperçu de ce site: notez les différents onglets description (en français), Galerie (pour les photos) et vidéo (en anglais) pour plus d'information.<br>]]></description>
+    <styleUrl>#style34</styleUrl>
+    <Point>
+      <coordinates>75.687561,20.553082,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>03 Bijapur: 24-26 Jan</name>
+    <description><![CDATA[<div dir="ltr">Our first night bus should bring us to Bijapur, an islamic city full of mosques and mausoleums dating back some 600 years. This <a href="http://www.youtube.com/watch?v=tSL42aGkn9I" target="_blank">video</a> from the tourism office of Karnataka will give you an idea of what we will see.<br><br>Premier trajet de nuit en bus pour atteindre Bijapur, une ville riche en monuments islamiques datant d'il y a 600 ans. Cette <a href="http://www.youtube.com/watch?v=tSL42aGkn9I" target="_blank">video</a> (en anglais) de l'office du tourisme de Karnataka vous donnera un aperçu de la ville.<br></div>]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>75.710907,16.824261,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>04 Badami: 27-29 Jan</name>
+    <description><![CDATA[<div dir="ltr">A "short" two and half hours train ride and this will be Badami. Badami was the capital of a very large kingdom in the 6th and 7th centuries and boasts beautiful cave temples (see this&nbsp; <a href="http://www.youtube.com/watch?v=_P9BtBwQHLE&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=12&amp;feature=plcp" target="_blank">video</a> from the tourism office of Karnataka). We will also use the town as a base to visit the World Heritage Site of Pattadakal and the Durga temple at Aihole (see next markers).<br><br>Quelques heures en train nous amènent à <a href="http://ganapati.free.fr/voyage/karnataka/badami.html" target="_blank">Badami</a>, où se trouvent d'importantes grottes (voir aussi cette <a href="http://www.youtube.com/watch?v=_P9BtBwQHLE&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=12&amp;feature=plcp" target="_blank">vidéo</a> en anglais de l'office du tourisme de Karnataka). Nous nous servirons aussi de cette ville pour visiter les ruines de Pattadakal, classées au patrimoine mondial de l'Humanité et le temple de Durga à Aihole  (voir les deux marqueurs suivants).<br></div>]]></description>
+    <styleUrl>#style35</styleUrl>
+    <Point>
+      <coordinates>75.681381,15.918743,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>04a Pattadakal</name>
+    <description><![CDATA[Pattadakal is on the World Heritage List. The <a href="http://whc.unesco.org/en/list/239" target="_blank">UNESCO </a>web site provides a good overview of the site: note the different tabs for a description, some photos (gallery) and videos. We also have a <a href="http://www.youtube.com/watch?v=0ejtIGYfs9w&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=5&amp;feature=plcp" target="_blank">video</a> from the Karnataka Tourism Office.<br><br>Pattadakal est inscrit au Patrimoine Mondial de l'Humanité. Le site de l'<a href="http://whc.unesco.org/fr/list/239" target="_blank">UNESCO </a>donne un bon aperçu de ce site: notez les différents onglets description (en français), Galerie (pour les photos) et vidéo (en anglais) pour plus d'information. Nous avons aussi une <a href="http://www.youtube.com/watch?v=0ejtIGYfs9w&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=5&amp;feature=plcp" target="_blank">video</a> (en anglais) de l'office du tourisme de Karnataka.]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>75.811157,15.942843,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>04b Aihole</name>
+    <description><![CDATA[Archeological Survey of India link to <a href="http://asi.nic.in/asi_monu_tktd_karnataka_durga.asp" target="_blank">Aihole</a> Durga temple. We also have this <a href="http://www.youtube.com/watch?v=pYyiRLUvmZs&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=13&amp;feature=plcp" target="_blank">video</a> from the tourism office of Karnataka !<br><br>Cliquez pour un <a href="http://ganapati.free.fr/voyage/karnataka/aihole.html" target="_blank">descriptif </a>du lieu, et nous avons aussi cette <a href="http://www.youtube.com/watch?v=pYyiRLUvmZs&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=13&amp;feature=plcp" target="_blank">video</a>  (en anglais) de l'office du tourisme de Karnataka !<br>]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>75.885315,16.022057,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>05 Hampi: 30 Jan - 3 Feb</name>
+    <description><![CDATA[<div dir="ltr">Hampi will be our southern most point on this journey. The place is particularly famous for its Hindu temples and the beauty of its surrounding landscape. The site is on the World Heritage List. The <a href="http://whc.unesco.org/en/list/241" target="_blank">UNESCO </a>web site provides a good overview of the site: note the different tabs for a description, some photos (gallery) and videos.<br>This french <a href="http://www.hampiontherocks.com/hampi-inde.html" target="_blank">web site</a> has nice pictures of Hampi too. And finally, we also have this <a href="http://www.youtube.com/watch?v=w2zkGU-_OKg&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=9&amp;feature=plcp" target="_blank">video</a> from the tourism office of Karnataka.<a href="http://www.youtube.com/watch?v=w2zkGU-_OKg&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=9&amp;feature=plcp" target="_blank"><br></a><br>Hampi est très célèbre pour ses fabuleux temples hindous et ses paysages érodés par le temps et l'eau. <br>Le site est inscrit au Patrimoine Mondial de l'Humanité. Le site de l'<a href="http://whc.unesco.org/fr/list/241" target="_blank">UNESCO </a>donne un bon aperçu de ce site: notez les différents onglets description (en français), Galerie (pour les photos) et vidéo (en anglais) pour plus d'information.<br>Nous avons aussi aimé ce <a href="http://www.hampiontherocks.com/hampi-inde.html" target="_blank">site web</a> en français sur Hampi qui a de belles photos. Cet article du <a href="http://www.lemonde.fr/voyage/article/2008/02/01/hampi-la-magie-des-pierres_1338026_3546.html" target="_blank">Monde</a> vous intéressera peut-être, ainsi que cette <a href="http://www.youtube.com/watch?v=w2zkGU-_OKg&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=9&amp;feature=plcp" target="_blank">vidéo<br></a> en anglais de l'office du tourisme du Karnataka.<br></div>]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>76.459694,15.332863,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>06 Bidar: 4-6 Feb</name>
+    <description><![CDATA[<div dir="ltr">Change of scenery after the Hindu monuments of Badami and Hampi: an other long bus night will bring us to the city of Bidar, with its fort and islamic mausoleums. And we also have this <a href="http://www.youtube.com/watch?v=FC9I9WlhYYI&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=21&amp;feature=plcp" target="_blank">video</a> from the tourism office of Karnataka!<br><br>Changement de culture et de religion: une longue nuit en car nous amènera à Bidar, où se trouvent un fort et de nombreux mausolées islamiques. Cette <a href="http://www.youtube.com/watch?v=FC9I9WlhYYI&amp;list=UU4nLjks7RwRfPbAD2hUVNlA&amp;index=21&amp;feature=plcp" target="_blank">video</a> en anglais de l'office du tourisme de Karnataka vous donnera un aperçu de l'endroit.<br></div>]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>77.519531,17.916023,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>07 Hyderabad: 7-11 Feb</name>
+    <description><![CDATA[<div dir="ltr">And then it will be <a href="http://www.hyderabad.co.uk/" target="_blank">Hyderabad</a>! The 5th largest city in India. We are looking forward to discovering this city, specially after reading William Dalrymple's book, the <a href="http://www.williamdalrymple.uk.com/books/white_mughals" target="_blank">White Mughals</a>. A worthwhile read....<br><br>Et ce sera <a href="http://ganapati.free.fr/voyage/andhra/frhyderabad.html" target="_blank">Hyderabad</a>... une ville dont nous rêvons depuis notre lecture du livre le <a href="http://www.chapitre.com/CHAPITRE/fr/BOOK/dalrymple-william/le-moghol-blanc,93437.aspx" target="_blank">Moghol Blanc</a> de William Dalrymple... L'<a href="http://www.courrierinternational.com/article/2002/11/14/le-labyrinthe-musulman-de-l-inde-du-sud" target="_blank">article suivant</a> vous donnera aussi un aperçu du bouquin..<br></div>]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>78.480835,17.382095,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>08 Visakhapatnam: 12-15 Feb</name>
+    <description><![CDATA[<div dir="ltr">Not sure about <a href="http://www.mustseeindia.com/Visakhapatnam" target="_blank">Vizag</a>, as they call it. It seemed a welcome break on the long way to Orissa. It is an active and modern port city with beaches, maybe a train trip to the Araku Valley... This will be a surprise!<br><br>Notre prochaine étape, <a href="http://ganapati.free.fr/voyage/andhra/frvishak.html" target="_blank">Vizag</a>, comme on la surnomme, s'est imposée pour couper le long trajet jusqu'à notre prochaine destination. C'est une ville moderne, au bord de la mer, nous ne sommes pas certains de ce que nous y trouverons, ce sera une surprise !<br></div>]]></description>
+    <styleUrl>#style43</styleUrl>
+    <Point>
+      <coordinates>83.232422,17.654491,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>08a - Train Ride to Araku</name>
+    <description><![CDATA[<div dir="ltr">Not sure whether Véro will succeed in convincing Thomas that we ought to take the train for a scenic ride into the Araku valley... A full day trip, it will probably depend on what Vizag has on offer...<br><br>Pas sûr que Véro réussisse à convaincre Thomas d'entreprendre cette excursion en train, le long de la pittoresque vallée de l'Araku. Cela dépendra probablement, de ce que Vizag aura à offrir ...</div>]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>82.866440,18.331715,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>09 Bhubaneshwar: 16-21 Feb</name>
+    <description><![CDATA[<div dir="ltr">Our final stop in Central India before turning North direction Nepal.... <a href="http://www.orissatourism.gov.in/bbsr.html" target="_blank">Bhubaneshwar</a> seems to be a vibrant city, with many temples and also the ideal base to visit the sun temple at Konarak and the Hindu Jagganath temple at Puri (see the next two markers).<br><br>Notre dernière étape en Inde Centrale avant de nous orienter vers le Népal... <a href="http://ganapati.free.fr/voyage/orissa/frbhubaneshvar.html" target="_blank">Bhubaneshwar </a>semble être une ville vibrante, avec beaucoup de temples, et  une base idéale pour visiter Puri et Konarak (voir les deux marqueurs suivants)</div>]]></description>
+    <styleUrl>#style45</styleUrl>
+    <Point>
+      <coordinates>85.830688,20.293114,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>09a Konarak</name>
+    <description><![CDATA[Konarak's Sun Temple is on the World Heritage List. The <a href="http://whc.unesco.org/en/list/246" target="_blank">UNESCO </a>web site provides a good overview of the site: note the different tabs for a description, some photos (gallery) and videos.<br><br>Le Temple du Soleil de Konarak est inscrit au Patrimoine Mondial de l'Humanité. Le site de l'<a href="http://whc.unesco.org/fr/list/246" target="_blank">UNESCO </a>donne un bon aperçu de ce site: notez les différents onglets description (en français), Galerie (pour les photos) et vidéo (en anglais) pour plus d'information.<br>]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>86.094276,19.887415,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>09b Puri</name>
+    <description><![CDATA[<div dir="ltr">Puri is famous for its <a href="http://jagannath.nic.in/" target="_blank">Jagannath </a>Temple, strictly forbidden to non Hindus, but we want to experience the atmosphere of the city, with so many pilgrims and the beaches catering to sea side tourists from Kolkata: probably an interesting mix.<br><br><a href="http://ganapati.free.fr/voyage/orissa/frpuri.html" target="_blank">Puri </a>est célèbre pour son temple de <a href="http://jagannath.nic.in/" target="_blank">Jagannath</a>, certes interdit aux non-hindous, mais nous voulons nous plonger dans l'atmosphère de cette ville, liant la  ferveur religieuse liée aux temples et la présence des plages attirant les touristes de Kolkata: un mélange probablement intéressant!</div>]]></description>
+    <styleUrl>#style40</styleUrl>
+    <Point>
+      <coordinates>85.830688,19.813223,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>10 Gaya: 22-23 Feb</name>
+    <description><![CDATA[<div dir="ltr">A very long train journey to Gaya. We'll stay there to visit the temple of Bodhgaya, marking the place where the Buddha achieved enlightenment (see next marker).<br><br>Un très long voyage en train, et nous serons à Gaya, d'où nous voulons visiter le temple de Bodhgaya, où le Bouddha parvint à l’Éveil suprême et parfait (voir marqueur suivant).</div>]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>85.001221,24.791098,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>10a Bodhgaya, Bihar</name>
+    <description><![CDATA[Bodhgaya's Mahabodhi Temple is on the World Heritage List. The <a href="http://whc.unesco.org/en/list/1056" target="_blank">UNESCO </a>web site provides a good overview of the site: note the different tabs for a description, some photos (gallery) and videos.<br><br>Le Temple de la Mahabodhi à Bodhgaya est inscrit au Patrimoine Mondial de l'Humanité. Le site de l'<a href="http://whc.unesco.org/fr/list/1056" target="_blank">UNESCO </a>donne un bon aperçu de ce site: notez les différents onglets description (en français), Galerie (pour les photos) et vidéo (en anglais) pour plus d'information.<br>]]></description>
+    <styleUrl>#style46</styleUrl>
+    <Point>
+      <coordinates>84.989632,24.696856,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>11 Rajgir: 24-25 Feb</name>
+    <description><![CDATA[Not sure about this one. Depending on how we feel about yet an other hotel and deplacement, we might stay there to visit the ancient ruins of the Nalanda University (see next marker).<br><br>Selon notre humeur et envie à la perspective d'un nouveau déplacement, il se peut que nous fassions le détour par Rajgir pour y visiter les ruines de l'ancienne université de Nalanda (voyez le marqueur suivant).<br>]]></description>
+    <styleUrl>#style41</styleUrl>
+    <Point>
+      <coordinates>85.418701,25.033350,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>11a Nalanda University</name>
+    <description><![CDATA[The ancient <a href="http://en.wikipedia.org/wiki/Nalanda" target="_blank">university of Nalanda</a> was founded in the 5th century AC and has been one of the most famous and important centres of knowledge in Asia until its destruction in the 1190s. <br><br>L'ancienne <a href="http://www.tout-sur-google-earth.com/t7006-l-universite-bouddhiste-de-nalanda-bihar-inde" target="_blank">université de Nalanda</a>, fondée au 5ème siècle après JC est l'une des plus anciennes universités du monde et eût un rayonnement très fort en Asie jusqu'à sa destruction vers 1190. Voyez ce <a href="http://www.bouddhismes.net/node/180" target="_blank">site web </a>pour de plus amples informations.<br>]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>85.461273,25.120419,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>12 Patna: 26 Feb</name>
+    <description><![CDATA[<div dir="ltr">On the banks of the river Ganges, we'll stop here before heading to the Nepali border. The town does not seem to be a beauty, but Vero is absolutely keen on seeing the <a href="http://www.indiamike.com/files/images/22/03/11/golghar.jpg" target="_blank">Golghar</a>, a huge domed silo built by the British in 1786 to store grain in case a famine would arise such as in 1770...<br><br><br>Ville étape sur notre chemin vers le Népal, Patna, sur les bords du Gange ne semble pas être une beauté.&nbsp; Mais Véro veut absolument y passer, ne serait-ce que pour voir le <a href="http://www.indiamike.com/files/images/22/03/11/golghar.jpg" target="_blank">Golghar</a>, un énorme silo construit en coupole par les Britanniques en 1786 pour entreposer le blé au cas où une grande famine, similaire à celle de 1770 se reproduirait.<br></div>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>85.138550,25.606855,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Raxaul - Birganj Border: 27 Feb</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style36</styleUrl>
+    <Point>
+      <coordinates>84.840546,26.991842,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kathmandu: 28 Feb-2 Mar &amp; 28-30 Apr</name>
+    <description><![CDATA[<div dir="ltr">We'll take a night bus from the border to Kathmandu where we will have quite a lot to prepare for our trek: book the flights to Lukla, arrange the permits, re-pack the rucksacks ... We'd like to leave as soon as possible for the mountains, there will be time enough on our return to enjoy the city before returning to India...<br><br>De la frontière, nous filerons direct sur Kathmandu où nous aurons pas mal à faire pour préparer notre trek: organiser les permis et nos billets d'avion pour Lukla, refaire les sacs, etc. Nous voulons partir aussi vite que possible pour les montagnes, et passerons plus de temps à Kathmandu avant de repartir pour l'Inde.<br></div>]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>85.336304,27.698120,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Trekking - Everest, Arun, Makalu: 3 Mar-23 Apr</name>
+    <description><![CDATA[The first part of our trek will be in the Everest region which we last 
+visited in 2010: check our website for pictures and details of the area 
+around <a href="http://trvl2.com/Nepal10/blog/Everest_Trek" target="_blank">Namche and above</a>. After 20 days, we will descend to the Arun Valley to Tumlingtar (see the <a href="http://www.thomaslauer.com/travel/Everest_Trek_2008" target="_blank">map from a trip we did in 2008</a>, showing the same route) and from there, trek up to Makalu Base Camp, a completely new part of Nepal for us.<br><br>Nous commencerons notre trek dans la région de l'Everest: voyez notre site web pour de belles photos et des détails de <a href="http://trvl2.com/Nepal10/blog/Everest_Trek" target="_blank">notre trek en 2010</a> (titre Namche and above). Après 20 jours, nous descendrons vers la vallée de l'Arun jusqu'à Tumlingtar (suivant <a href="http://thomaslauer.com/travel/Everest_Trek_2008" target="_blank">l'itinéraire fait en 2008</a>), et de là, nous orienterons vers le camp de base du Makalu, que nous ne connaissons pas encore.]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>86.901855,27.877928,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dhankhuta: 24 Apr</name>
+    <description><![CDATA[<div dir="ltr">After around 50 days on trek, we will eventually arrive in Dhankhuta, where we will have a good clean and organise our bus journey back to Kathmandu.<br><br>Après environ 50 jours de trek, nous retrouverons la route à Dhankhuta: excellente étape pour faire une bonne toilette, et organiser notre retour sur Kathmandu.</div>]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>87.325516,26.945944,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Janakpur: 25-26 Apr</name>
+    <description><![CDATA[<div dir="ltr">A nice stop over near the Indian border, this city which we have already visited in 2008 has quite a strong Indian feel. We will spend a few days in town before continuing to Kathmandu to collect the stuff we left there before going on trek (Indian guide books, things not needed on the trek and too heavy to carry along the way).<br><br>Nous nous arrêterons en chemin à Janakpur, près de la frontière indienne. Cette ville que nous connaissons déjà a un fort caractère indien, une étape sympa avant de récupérer les affaires laissées à Kathmandu avant le trek (car trop lourdes ou inutiles dans les montagnes)..</div>]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>85.915833,26.725986,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pokhara: 1-3 May</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style42</styleUrl>
+    <Point>
+      <coordinates>83.955460,28.211542,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tansen: 4-5 May</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>83.540039,27.858503,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sonauli - Bhairawa Border : 6 May</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>83.452148,27.464415,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>13 Allahabad: 7-9 May</name>
+    <description><![CDATA[<div dir="ltr">Allahabad is hosting the Kumbh Mela in 2013, the festival will be over, but we still expect a lot of pilgrims in the city. Allahabad is also the home town of Nehru.<br><br>Allahabad reçoit la Kumbh Mela de 2013. Le festival sera terminé mais nous nous attendons à voir encore de nombreux pélerins. C'est aussi la ville natale de Nehru.<br></div>]]></description>
+    <styleUrl>#style49</styleUrl>
+    <Point>
+      <coordinates>81.842651,25.423431,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>14 - Lucknow: 10-12 May</name>
+    <description><![CDATA[<div dir="ltr">Lucknow was one of the main show place of the Indian Rebellion of 1857, which somehow marked the start of the decline of the Raj in India. Brush up your Hindi and watch this <a href="http://www.youtube.com/watch?v=GLu27grpHPE&amp;feature=related" target="_blank">video </a>for a glimpse of the city!<br><br>Lucknow fût le théatre de sanglants affrontements lors de la révolte des Cipayes de 1857 qui marqua le début de la fin pour le Raj britannique. Perfectionnez votre Hindi et découvrez la ville en regardant cette <a href="http://www.youtube.com/watch?v=GLu27grpHPE&amp;feature=related" target="_blank">video</a>!</div>]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>80.903320,26.843678,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>15 Bhopal: 14-16 May</name>
+    <description><![CDATA[<div dir="ltr">A night train will bring us to the city of Bhophal (see this <a href="http://www.youtube.com/watch?v=79DLfInsMRA&amp;feature=BFa&amp;list=UUl2DCj3sY2pNoHWzP9NjrMg" target="_blank">video</a> from the office of tourism in Madhya Pradesh) which will serve us as a base to visit the great stupa of Sanchi (see next marker).<br><br>Encore un train de nuit et nous arriverons à Bhopal qui nous servira de base pour visiter le site de Sanchi (voir marqueur suivant). Cette <a href="http://www.youtube.com/watch?v=79DLfInsMRA&amp;feature=BFa&amp;list=UUl2DCj3sY2pNoHWzP9NjrMg" target="_blank">vidéo</a> (en anglais) de l'office du tourisme de Madhya Pradesh vous donnera un aperçu de la ville). </div>]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>77.406921,23.259010,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>15a Sanchi</name>
+    <description><![CDATA[<div dir="ltr">Sanchi's Buddhist Monuments are on the World Heritage List. The <a href="http://whc.unesco.org/en/list/524" target="_blank">UNESCO </a>web site provides a good overview of the site: note the different tabs for a description, some photos (gallery) and videos. We have also this <a href="http://www.youtube.com/watch?v=k6VUT2v6rUs&amp;list=UUl2DCj3sY2pNoHWzP9NjrMg&amp;index=8" target="_blank">video </a>from the tourism office of Madhya Pradesh.<br><br>Les Monuments Bouddhiques de Sanchi sont inscrits au Patrimoine Mondial de l'Humanité. Le site de l'<a href="http://whc.unesco.org/fr/list/524" target="_blank">UNESCO </a>donne un bon aperçu de ce site: notez les différents onglets description (en français), Galerie (pour les photos) et vidéo (en français) pour plus d'information. Il y a aussi cette <a href="http://www.youtube.com/watch?v=k6VUT2v6rUs&amp;list=UUl2DCj3sY2pNoHWzP9NjrMg&amp;index=8" target="_blank">vidéo </a>(en anglais) de l'office de tourisme de Madhya Pradesh.</div>]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>77.736511,23.483400,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>16 Ujjain: 17-19 May</name>
+    <description><![CDATA[<div dir="ltr">The holy city of Ujjain is one of the four hosts to the Kumbh Mela: many pilgrims and much devotion to be expected. This <a href="http://www.youtube.com/watch?v=DWYfV4LV9DI&amp;list=UUl2DCj3sY2pNoHWzP9NjrMg&amp;index=4&amp;feature=plcp" target="_blank">video</a> from the tourism office of Madhya Pradesh will give you an impression of the atmosphere of the city.<br><br><a href="http://ganapati.free.fr/voyage/madhya/frujjain.html" target="_blank">Ujjain </a>est elle aussi une des quatre villes indiennes à recevoir la Kumbh Mela et en tant que telle, est une ville sainte attirant de nombreux pélerins. Cette <a href="http://www.youtube.com/watch?v=DWYfV4LV9DI&amp;list=UUl2DCj3sY2pNoHWzP9NjrMg&amp;index=4&amp;feature=plcp" target="_blank">vidéo</a> (en anglais) de l'office du tourisme de Madhya Pradesh vous donnera un aperçu de la ville.<br><a href="http://www.youtube.com/watch?v=DWYfV4LV9DI&amp;list=UUl2DCj3sY2pNoHWzP9NjrMg&amp;index=4&amp;feature=plcp" target="_blank"></a></div>]]></description>
+    <styleUrl>#style44</styleUrl>
+    <Point>
+      <coordinates>75.783691,23.175714,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>17 Mandu: 20-23 May</name>
+    <description><![CDATA[<div dir="ltr">Mandu is famous for its Afghan ruins, mosques and palaces, dating from the 15th century AC. Watch this <a href="http://www.youtube.com/watch?v=KluNW-8dqeE&amp;feature=BFa&amp;list=UUl2DCj3sY2pNoHWzP9NjrMg" target="_blank">video</a> from the tourism office of Madhya Pradesh for an impression of the place. We've read that the landscape is particularly nice, so we will spend a few days there to relax and start detaching us from Asia: It will be our last stop before Mumbai.<br><br><a href="http://ganapati.free.fr/voyage/madhya/mandudhar.html" target="_blank">Mandu </a>est célèbre pour ses anciennes ruines afghanes du 15ème siècle après JC. Cette <a href="http://www.youtube.com/watch?v=KluNW-8dqeE&amp;feature=BFa&amp;list=UUl2DCj3sY2pNoHWzP9NjrMg" target="_blank">vidéo</a> (en anglais) de l'office du tourisme de Madhya Pradesh vous présente les monuments à y voir. Nous avons lu que le paysage aux alentours est particulièrement agréable, nous y resterons donc quelques jours à relaxer et nous détacher peu à peu de l'Asie: notre prochaine étape sera Mumbai et de là... l'Angleterre...<br></div>]]></description>
+    <styleUrl>#style48</styleUrl>
+    <Point>
+      <coordinates>75.404663,22.341820,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>18 Mumbai: 25-28 May</name>
+    <description><![CDATA[<div dir="ltr">We will visit the city at the end of our journey: spend a short week there before boarding our plane back to Europe. There will be surely a lot to do, among others, visit the Elephanta caves, situated on an island in the bay facing the city. The caves are on the World Heritage List and the <a href="http://whc.unesco.org/en/list/244" target="_blank">UNESCO</a> web site provides a good overview of the site: note the different tabs for a description, some photos (gallery) and videos.<br><br>Nous finirons notre voyage par Mumbai où nous comptons passer une courte semaine avant de reprendre l'avion pour l'Europe. Une des principales attractions sont les <a href="http://whc.unesco.org/fr/list/244" target="_blank">Grottes d'Elephanta</a>, inscrites au Patrimoine Mondial de l'Humanité. Le site de l'UNESCO donne un bon aperçu de ce site: notez les différents onglets description (en français), Galerie (pour les photos) et vidéo (en français) pour plus d'information.<br></div>]]></description>
+    <styleUrl>#style47</styleUrl>
+    <Point>
+      <coordinates>72.869827,19.093834,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>India - 1st Leg</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style37</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        72.938232,19.114019,0.000000
+        73.800652,19.973339,0.000000
+        74.097290,20.071409,0.000000
+        74.476311,20.035290,0.000000
+        74.712517,19.911381,0.000000
+        74.921257,20.066250,0.000000
+        75.322258,19.864889,0.000000
+        75.629883,19.683969,0.000000
+        75.767212,19.212610,0.000000
+        75.690300,18.609800,0.000000
+        76.113281,18.072750,0.000000
+        75.882561,17.664961,0.000000
+        75.719139,16.813740,0.000000
+        75.640862,16.299049,0.000000
+        75.614769,16.183020,0.000000
+        75.680687,16.157961,0.000000
+        75.647728,16.089359,0.000000
+        75.649101,15.998290,0.000000
+        75.672447,15.977170,0.000000
+        75.683441,15.912470,0.000000
+        75.774071,15.814710,0.000000
+        75.742493,15.705010,0.000000
+        76.072083,15.583350,0.000000
+        76.276703,15.469560,0.000000
+        76.319267,15.355700,0.000000
+        76.311028,15.318620,0.000000
+        76.356354,15.252380,0.000000
+        76.383820,15.266960,0.000000
+        76.390678,15.698400,0.000000
+        76.448357,16.024691,0.000000
+        76.758720,16.519039,0.000000
+        77.130890,16.761150,0.000000
+        77.163841,16.901800,0.000000
+        77.253113,16.979300,0.000000
+        77.279198,17.182770,0.000000
+        77.376701,17.290331,0.000000
+        77.341003,17.401751,0.000000
+        77.419281,17.454161,0.000000
+        77.371208,17.712061,0.000000
+        77.500298,17.904261,0.000000
+        77.564850,17.863741,0.000000
+        77.592308,17.789221,0.000000
+        77.585442,17.687201,0.000000
+        78.061981,17.603439,0.000000
+        78.476707,17.380779,0.000000
+        79.848633,17.046280,0.000000
+        80.617668,16.501930,0.000000
+        83.204948,17.680660,0.000000
+        84.814453,19.300770,0.000000
+        85.347290,19.901051,0.000000
+        85.841667,20.287960,0.000000
+        85.819702,19.792540,0.000000
+        86.154778,21.820700,0.000000
+        85.308830,23.402760,0.000000
+        85.001221,24.761789,0.000000
+        85.413208,24.834103,0.000000
+        85.435181,24.918821,0.000000
+        85.420074,25.032106,0.000000
+        85.418701,25.079380,0.000000
+        85.512085,25.195000,0.000000
+        85.539551,25.473034,0.000000
+        85.311584,25.522615,0.000000
+        85.133049,25.601900,0.000000
+        85.330811,26.140640,0.000000
+        84.759521,26.755421,0.000000
+        84.858391,26.991840,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>India - 2nd Leg</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style31</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        83.443901,27.461969,0.000000
+        83.353271,26.755421,0.000000
+        81.846313,25.373800,0.000000
+        81.331779,25.869101,0.000000
+        80.925293,26.882879,0.000000
+        80.310051,26.421391,0.000000
+        79.288330,25.849331,0.000000
+        78.596191,25.443270,0.000000
+        77.728271,23.463240,0.000000
+        77.409660,23.271620,0.000000
+        76.585693,22.988729,0.000000
+        76.052849,22.963449,0.000000
+        75.783691,23.170660,0.000000
+        75.550232,23.142879,0.000000
+        75.374451,23.046881,0.000000
+        75.259087,23.019070,0.000000
+        75.248100,22.834410,0.000000
+        75.314018,22.768579,0.000000
+        75.309212,22.598160,0.000000
+        75.373070,22.556950,0.000000
+        75.416328,22.499870,0.000000
+        75.421143,22.400869,0.000000
+        75.650482,22.493521,0.000000
+        75.644981,22.583580,0.000000
+        75.728760,22.610201,0.000000
+        75.774071,22.610201,0.000000
+        75.858757,22.715389,0.000000
+        75.786430,23.107519,0.000000
+        75.044861,22.831881,0.000000
+        74.245598,22.821751,0.000000
+        73.399651,22.796431,0.000000
+        73.190910,22.248421,0.000000
+        72.839355,21.166485,0.000000
+        73.048096,20.786930,0.000000
+        72.883301,20.406420,0.000000
+        72.883301,19.870060,0.000000
+        72.976677,19.176300,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Nepal - 1st Leg</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style50</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        84.869156,27.000408,0.000000
+        84.981766,27.192350,0.000000
+        84.986115,27.199678,0.000000
+        84.984512,27.191128,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Trek</name>
+    <description><![CDATA[<br>]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <tessellate>1</tessellate>
+          <coordinates>
+            86.235123,27.635483,0.000000
+            86.492615,27.616014,0.000000
+            86.798851,27.643391,0.000000
+            87.025452,27.629999,0.000000
+            87.133942,27.513140,0.000000
+            87.119171,27.398590,0.000000
+            87.184753,27.227760,0.000000
+            87.250671,27.092140,0.000000
+            87.279510,27.051781,0.000000
+            87.308350,27.040779,0.000000
+            87.327568,27.171579,0.000000
+            87.258911,27.298571,0.000000
+            87.192993,27.509480,0.000000
+            87.083130,27.690821,0.000000
+            87.151787,27.739450,0.000000
+            87.157280,27.865780,0.000000
+            86.918327,27.999250,0.000000
+            86.648247,28.096210,0.000000
+            86.564018,28.074400,0.000000
+            86.511841,27.953159,0.000000
+            86.566772,27.936180,0.000000
+            86.557838,27.821461,0.000000
+            86.684868,27.778339,0.000000
+            86.706841,27.734591,0.000000
+            86.703072,27.693859,0.000000
+            86.729851,27.690210,0.000000
+            86.474762,27.682312,0.000000
+            86.235123,27.635483,0.000000
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark>
+    <name>Nepal - 1st Leg</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style22</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        83.459007,27.469280,0.000000
+        83.467247,27.683519,0.000000
+        83.556519,27.868217,0.000000
+        83.622437,27.846361,0.000000
+        83.971252,28.214870,0.000000
+        84.094849,28.125282,0.000000
+        84.070129,28.055016,0.000000
+        84.561310,27.863359,0.000000
+        85.315697,27.694469,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Nepal - 2nd Leg</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style38</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        87.307320,27.044439,0.000000
+        87.346802,26.985720,0.000000
+        87.315208,26.909821,0.000000
+        87.330322,26.868179,0.000000
+        87.289124,26.826521,0.000000
+        87.275162,26.659731,0.000000
+        87.212212,26.672001,0.000000
+        87.160027,26.590981,0.000000
+        87.030937,26.593430,0.000000
+        86.933212,26.517269,0.000000
+        86.875526,26.556589,0.000000
+        86.907120,26.630270,0.000000
+        86.833191,26.649910,0.000000
+        86.687622,26.627810,0.000000
+        86.572258,26.672001,0.000000
+        86.467888,26.730890,0.000000
+        85.995483,26.917170,0.000000
+        85.916969,26.727209,0.000000
+        85.946037,26.956350,0.000000
+        85.685120,27.029770,0.000000
+        85.479118,27.127590,0.000000
+        84.985878,27.196011,0.000000
+        85.028450,27.424191,0.000000
+        84.446411,27.673790,0.000000
+        84.567261,27.831791,0.000000
+        85.319588,27.682310,0.000000
+        85.552818,27.615400,0.000000
+        85.816490,27.734591,0.000000
+        86.079254,27.634874,0.000000
+        86.228943,27.636700,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Night Bus Aurangabad - Bijapur</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style39</styleUrl>
+    <Point>
+      <coordinates>75.871582,18.667063,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Night Bus Hampi - Bidar</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>76.992188,16.909683,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Night Train Hyderabad- Visakhapatnam</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>81.057129,16.825575,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Night Train Visakhaptnam - Bhubasneswar</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>84.462891,19.124411,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Night Train Puri - Gaya</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>86.088867,22.329752,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Night Train Gorakhpur - Allahabad</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>82.639160,26.529566,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Night Train Allahabad - Bhopal</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>78.530273,25.760321,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Night Train Indore - Mumbai</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>73.498535,21.983801,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>

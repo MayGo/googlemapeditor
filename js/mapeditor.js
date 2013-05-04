@@ -4,8 +4,14 @@ $(function() {
 		'callback' : function(map) {
 			var mapView = new MapViewModel(map, this);
 			ko.applyBindings(mapView);
+
+			$(this).kmlParser({
+				url : 'NINDIA-2013.kml',
+				onComplete : mapView.displayPlacemarks
+			})
 		}
 	});
+
 
 	ko.bindingHandlers['modal'] = {
 		init : function(element, valueAccessor, allBindingsAccessor) {
@@ -120,8 +126,15 @@ $(function() {
 		var self = this;
 		self.icon = ko.observable();
 		self.icon.subscribe(function(newValue) {
-			if (self.hidden.marker)
-				self.hidden.marker.setIcon($.Constants.ICONS_SRC_FOLDER + newValue);
+			if (self.hidden.marker) {
+				var url;
+				if (newValue.match(/\//)) {//If it is a url
+					url = newValue;
+				} else {//if just image name
+					url = $.Constants.ICONS_SRC_FOLDER + newValue
+				}
+				self.hidden.marker.setIcon(url);
+			}
 		});
 
 		self.name = ko.observable(name);
@@ -154,6 +167,7 @@ $(function() {
 	jQuery.extend(Point.prototype, {
 		init : function(data) {
 			this.name(data.name || "new item");
+			this.desc(data.desc || "");
 
 			this.color(data.color || "#000000");
 			this.lat(data.lat);
@@ -353,7 +367,7 @@ $(function() {
 				var style = "<Style id='" + pointStyleStr + i + "'>\n";
 				style += "<IconStyle>\n"
 				style += "<Icon>\n"
-				style += "<href>" + $.Constants.ICONS_SRC_FOLDER +  point.icon() + "</href>\n";
+				style += "<href>" + $.Constants.ICONS_SRC_FOLDER + point.icon() + "</href>\n";
 				style += "</Icon>\n";
 				style += "</IconStyle>\n";
 				style += "</Style>\n";
@@ -565,7 +579,62 @@ $(function() {
 				console.log("incoming Text " + jqXHR.responseText);
 			});
 		}
-		self.loadJSON();
+		/*self.displayKml = function(doc) {
+		 for (var i = 0; i < doc[0].placemarks.length; i++) {
+		 var p = doc[0].placemarks[i];
+		 //alert(p.toSource());
+		 //return;
+		 }
+
+		 ko.utils.arrayMap(doc[0].placemarks, function(d) {
+		 var data = {};
+		 data.name = d.name;
+		 data.desc = d.description;
+		 try {
+		 data.lat = d.Point.coordinates[0].lat;
+		 data.lng = d.Point.coordinates[0].lng;
+		 } catch(e) {
+		 //alert(d.toSource());
+		 //alert(e);
+		 }
+		 data.icon = d.style.icon.url;
+		 data.parent = self;
+		 self.points.push(new Point(data));
+		 });
+
+		 ko.utils.arrayMap(doc[0].gpolygons, function(d) {
+
+		 var data = {}
+		 data.parent = self;
+		 data.color = d.strokeColor
+		 data.name = d.title;
+
+		 var polylinesLatLng = [];
+		 $.each(d.latLngs.b[0].pop().b[0], function(i, line) {
+		 alert(line[0].Ya);
+		 polylinesLatLng.push([line[0].Ya, line[0].Za]);
+		 });
+		 data.lines = polylinesLatLng;
+		 self.polylines.push(new Polyline(data));
+		 });
+
+		 }*/
+		self.displayPlacemarks = function(placemarks) {
+
+			ko.utils.arrayMap(placemarks, function(d) {
+				var data = {};
+				data.name = d.name;
+				data.desc = d.desc;
+				data.lat = d.lat;
+				data.lng = d.lng;
+				data.icon = d.style.url;
+				data.parent = self;
+				self.points.push(new Point(data));
+			});
+
+
+		}
+		//self.loadJSON();
 	}
 
 
